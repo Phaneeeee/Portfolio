@@ -1,0 +1,25 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#171B18"/>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="220" y="116" width="760" height="443" rx="34" fill="#F8F3EA" stroke="#4ECDC4" stroke-width="6"/>
+  <rect x="258" y="162" width="312" height="351" rx="22" fill="#111411"/>
+  <rect x="612" y="162" width="330" height="74" rx="16" fill="#E9E3D6"/>
+  <rect x="612" y="262" width="330" height="74" rx="16" fill="#E9E3D6"/>
+  <rect x="612" y="362" width="220" height="68" rx="16" fill="#4ECDC4"/>
+  <path d="M389 337v-62c0-52 35-90 84-90s84 38 84 90v62" stroke="#FFD166" stroke-width="18" stroke-linecap="round"/>
+  <rect x="336" y="315" width="274" height="158" rx="24" fill="#FFD166"/>
+  <circle cx="473" cy="386" r="24" fill="#111411"/>
+  <path d="M473 407v35" stroke="#111411" stroke-width="18" stroke-linecap="round"/>
+  <text x="647" y="208" fill="#111411" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="800">Email Verification</text>
+  <text x="647" y="309" fill="#111411" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="800">OTP Authentication</text>
+  <text x="653" y="407" fill="#09211F" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800">SECURE LOGIN</text>
+  <circle cx="892" cy="464" r="34" fill="#FF6B5F"/>
+  <path d="M876 464l11 11 23-25" stroke="#F8F3EA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 338) rotate(90) scale(410 650)">
+      <stop stop-color="#33435A"/>
+      <stop offset=".55" stop-color="#24251F"/>
+      <stop offset="1" stop-color="#111411"/>
+    </radialGradient>
+  </defs>
+</svg>

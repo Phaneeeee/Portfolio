@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Phaneendra Peravarapu, a software developer focused on Python, FastAPI, Flask, React, AWS, and full-stack web applications."
+    />
+    <title>Phaneendra Peravarapu | Software Developer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="signalCanvas" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-mark goat-mark" aria-hidden="true">
+          <img src="assets/capricorn-svgrepo-com.svg" alt="" />
+        </span>
+        <span class="brand-name"><span>Phaneendra</span><span>Peravarapu</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="resume-action" href="assets/PhaneendraPeravarapu_Resume.pdf" target="_blank" rel="noreferrer" aria-label="View resume">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z" />
+            <circle cx="12" cy="12" r="3" />
+          </svg>
+          <span>View Resume</span>
+        </a>
+        <button class="icon-button" id="themeToggle" type="button" aria-label="Toggle theme" title="Theme">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3v2M12 19v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M3 12h2M19 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+            <circle cx="12" cy="12" r="4" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Portfolio / <span id="nameDecoder" class="name-decoder" data-text="Phaneendra Peravarapu" aria-label="Phaneendra Peravarapu">Phaneendra Peravarapu</span></p>
+          <h1>
+            <span>Hi there! <span class="wave" aria-hidden="true">&#128075;</span></span>
+            <span>I'm <span class="hero-name-accent">Phaneendra</span></span>
+          </h1>
+          <p class="rotating-role" aria-live="polite"><span id="roleRotator">I Am a Full Stack Developer</span></p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#projects">View Projects</a>
+            <a class="secondary-action" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="Profile snapshot">
+          <div class="profile-console">
+            <div class="console-top">
+              <span></span><span></span><span></span>
+              <strong>developer.profile</strong>
+            </div>
+            <div class="console-body">
+              <p><span>role</span> Software Developer</p>
+              <p><span>focus</span> Backend + Full Stack</p>
+              <p><span>status</span> Open to SDE roles</p>
+            </div>
+          </div>
+          <div class="signal-card">
+            <span class="status-dot"></span>
+            <div>
+              <strong>Production-minded builder</strong>
+              <small>REST APIs, auth flows, cloud deployment, SQL-backed systems</small>
+            </div>
+          </div>
+          <div class="metric-row">
+            <div>
+              <strong>180+</strong>
+              <span>LeetCode</span>
+            </div>
+            <div>
+              <strong>2</strong>
+              <span>Deployed Apps</span>
+            </div>
+            <div>
+              <strong>AWS</strong>
+              <span>Certified</span>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About me</p>
+          <h2>Let Me Introduce Myself</h2>
+        </div>
+        <div class="about-layout">
+          <div class="about-copy">
+            <p>
+              I'm a <span class="highlight-keyword">Software Engineer</span> who enjoys turning ideas into
+              real-world products and experiences. I love exploring new technologies and building applications
+              that are <span class="highlight-keyword">Reliable</span>, <span class="highlight-keyword">Scalable</span>,
+              and easy to use.
+            </p>
+            <p>
+              I work primarily with <span class="highlight-keyword">Python</span>, <span class="highlight-keyword">SQL</span>,
+              <span class="highlight-keyword">Flask</span>, and <span class="highlight-keyword">FastAPI</span>, and I enjoy
+              developing both <span class="highlight-keyword">Backend Systems</span> and interactive web applications.
+              I also like working with frontend technologies and modern frameworks like
+              <span class="highlight-keyword">React.js</span> to create clean and responsive user interfaces.
+            </p>
+            <p>
+              My main interests include <span class="highlight-keyword">Web Application Development</span>,
+              <span class="highlight-keyword">Backend Engineering</span>, and building projects that solve practical
+              problems through simple and efficient solutions.
+            </p>
+            <div class="about-highlights" aria-label="Portfolio highlights">
+              <div><strong>180+</strong><span>LeetCode problems solved</span></div>
+              <div><strong>2</strong><span>deployed full-stack projects</span></div>
+              <div><strong>AWS</strong><span>cloud foundations certified</span></div>
+            </div>
+          </div>
+          <div class="skill-stack" aria-label="Core skills">
+            <div class="skill-item">
+              <span class="skill-icon"><i class="devicon-python-plain colored" aria-hidden="true"></i></span>
+              <strong>Python</strong>
+              <small>Backend Logic, Scripting, Problem Solving</small>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon"><i class="devicon-fastapi-plain colored" aria-hidden="true"></i></span>
+              <strong>FastAPI</strong>
+              <small>REST APIs, Services, Integrations</small>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon"><i class="devicon-flask-original" aria-hidden="true"></i></span>
+              <strong>Flask</strong>
+              <small>Authentication, Templates, MySQL Apps</small>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon"><i class="devicon-react-original colored" aria-hidden="true"></i></span>
+              <strong>React.js</strong>
+              <small>Responsive UI, State, API-Driven Pages</small>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon"><i class="devicon-mysql-original colored" aria-hidden="true"></i></span>
+              <strong>SQL</strong>
+              <small>MySQL, PostgreSQL, Schema Thinking</small>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon"><i class="devicon-amazonwebservices-plain-wordmark colored" aria-hidden="true"></i></span>
+              <strong>AWS</strong>
+              <small>Lambda, API Gateway, RDS, Amplify</small>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon"><i class="devicon-git-plain colored" aria-hidden="true"></i></span>
+              <strong>Git</strong>
+              <small>Version Control, Deployment Workflow</small>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon"><i class="devicon-codepen-plain" aria-hidden="true"></i></span>
+              <strong>DSA</strong>
+              <small>Arrays, Trees, Graphs, Dynamic Programming</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section project-section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Projects and Continuous Learning</h2>
+        </div>
+
+        <div class="project-toolbar" aria-label="Project controls">
+          <div class="filter-group" role="list" aria-label="Project filters">
+            <button class="filter-button active" data-filter="all" type="button">All</button>
+            <button class="filter-button" data-filter="web" type="button">Web</button>
+            <button class="filter-button" data-filter="backend" type="button">Backend</button>
+            <button class="filter-button" data-filter="cloud" type="button">Cloud</button>
+          </div>
+          <label class="search-wrap">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" />
+              <path d="m20 20-3.8-3.8" />
+            </svg>
+            <input id="projectSearch" type="search" placeholder="Search projects" autocomplete="off" />
+          </label>
+        </div>
+
+        <div class="project-grid" id="projectGrid">
+          <article class="project-card" data-category="web backend cloud" data-title="URLSpace Full Stack URL Shortener">
+            <div class="project-visual image-visual">
+              <img src="assets/urlspace-preview.svg" alt="URLSpace URL shortener preview with a link bar, scissors, and cursor" />
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Full-Stack App</span>
+                <span>2026</span>
+              </div>
+              <h3>URLSpace</h3>
+              <p>A deployed URL shortener with custom short codes, redirect handling, click tracking, and a responsive light/dark UI.</p>
+              <div class="project-actions">
+                <button class="project-action-button primary-project-action" data-modal="urlspace" type="button">Case Study</button>
+                <a class="project-action-button" href="https://main.d1o6mtelt6huup.amplifyapp.com/" target="_blank" rel="noreferrer">Live Demo</a>
+                <a class="project-action-button" href="https://github.com/Phaneeeee/url-shortener" target="_blank" rel="noreferrer">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web backend" data-title="Flask OTP Authentication Web App">
+            <div class="project-visual image-visual">
+              <img src="assets/otp-auth-preview.svg" alt="Flask OTP authentication preview with lock and verification UI" />
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Authentication</span>
+                <span>2025</span>
+              </div>
+              <h3>Flask OTP Authentication</h3>
+              <p>A secure auth web app with registration, email OTP verification, login, protected dashboard, and password reset.</p>
+              <div class="project-actions">
+                <button class="project-action-button primary-project-action" data-modal="otp" type="button">Case Study</button>
+                <a class="project-action-button" href="https://flask-otp-signup.onrender.com/" target="_blank" rel="noreferrer">Live Demo</a>
+                <a class="project-action-button" href="https://github.com/Phaneeeee/flask-otp-signup" target="_blank" rel="noreferrer">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="backend cloud" data-title="Problem Solving and Cloud Foundation">
+            <div class="project-visual image-visual">
+              <img src="assets/engineering-core-preview.svg" alt="Engineering core preview showing DSA, API, SQL, AWS, and Git nodes" />
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Engineering Core</span>
+                <span>Ongoing</span>
+              </div>
+              <h3>DSA & Cloud Practice</h3>
+              <p>A focused foundation across data structures, algorithms, REST APIs, SQL databases, Linux, Git, and AWS fundamentals.</p>
+              <div class="project-actions">
+                <button class="project-action-button primary-project-action" data-modal="foundation" type="button">Profile</button>
+                <a class="project-action-button" href="https://leetcode.com/u/Phanee17/" target="_blank" rel="noreferrer">LeetCode</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Work Experience & Internships</h2>
+        </div>
+        <div class="experience-board">
+          <article class="experience-card">
+            <div class="experience-date">Sept 2025 - Feb 2026</div>
+            <div class="experience-content">
+              <span class="experience-company">[24]7.ai / Hyderabad</span>
+              <h3>Digital Interaction Advisor</h3>
+              <p>Worked in a high-volume, SLA-driven production environment involving order systems, payment workflows, escalation logic, and process compliance.</p>
+              <div class="experience-points">
+                <span>Customer Workflows</span>
+                <span>SLA Operations</span>
+                <span>Process Compliance</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-card">
+            <div class="experience-date">Sept 2024 - Feb 2025</div>
+            <div class="experience-content">
+              <span class="experience-company">Dehu Engineering / Pune</span>
+              <h3>Junior Engineer, Projects & Proposals</h3>
+              <p>Analyzed client requirements, coordinated with internal teams, and prepared technical proposals and documentation to support business decisions.</p>
+              <div class="experience-points">
+                <span>Requirement Analysis</span>
+                <span>Technical Proposals</span>
+                <span>Documentation</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-card">
+            <div class="experience-date">June 2023 - July 2023</div>
+            <div class="experience-content">
+              <span class="experience-company">V Info Technologies / Visakhapatnam</span>
+              <h3>Full Stack Development Intern</h3>
+              <p>Completed hands-on full-stack training and strengthened HTML, CSS, JavaScript, backend fundamentals, Python, Flask, and database integration. Learned about REST APIs, authentication workflow.</p>
+              <div class="experience-points">
+                <span>Full Stack Basics</span>
+                <span>Python & Flask</span>
+                <span>Database Integration</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-card">
+            <div class="experience-date">Dec 2022 - Feb 2023</div>
+            <div class="experience-content">
+              <span class="experience-company">AICTE - Eduskills / Virtual Internship</span>
+              <h3>Cybersecurity Intern</h3>
+              <p>Completed a Palo Alto Networks-supported internship covering cybersecurity fundamentals, network security, SOC concepts, threat types, defense strategies, risk mitigation, and incident response basics.</p>
+              <div class="experience-points">
+                <span>Cybersecurity</span>
+                <span>Network Security</span>
+                <span>SOC Fundamentals</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's Connect</h2>
+        </div>
+        <div class="contact-panel">
+          <div class="contact-intro">
+            <h3>Have an opportunity or project in mind?</h3>
+            <p>I'm open to software development roles, backend projects, full-stack applications, and practical engineering problems worth solving.</p>
+            <div class="contact-link-grid">
+              <a class="contact-link-card" href="mailto:phaneewhat@gmail.com">
+                <span class="contact-link-icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z" /><path d="m4 7 8 6 8-6" /></svg>
+                </span>
+                <span><strong>Email</strong><small>phaneewhat@gmail.com</small></span>
+              </a>
+              <a class="contact-link-card" href="https://www.linkedin.com/in/phaneendraperavarapu/" target="_blank" rel="noreferrer">
+                <span class="contact-link-icon brand-linkedin"><i class="devicon-linkedin-plain" aria-hidden="true"></i></span>
+                <span><strong>LinkedIn</strong><small>phaneendraperavarapu</small></span>
+              </a>
+              <a class="contact-link-card" href="https://github.com/Phaneeeee" target="_blank" rel="noreferrer">
+                <span class="contact-link-icon brand-github"><i class="devicon-github-original" aria-hidden="true"></i></span>
+                <span><strong>GitHub</strong><small>Phaneeeee</small></span>
+              </a>
+              <a class="contact-link-card" href="https://x.com/Phaneeeeeeeee" target="_blank" rel="noreferrer">
+                <span class="contact-link-icon brand-x">X</span>
+                <span><strong>X</strong><small>@Phaneeeeeeeee</small></span>
+              </a>
+              <a class="contact-link-card" href="https://www.instagram.com/phanee_17" target="_blank" rel="noreferrer">
+                <span class="contact-link-icon brand-instagram">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="5" /><circle cx="12" cy="12" r="3.2" /><path d="M17.5 6.7h.01" /></svg>
+                </span>
+                <span><strong>Instagram</strong><small>@phanee_17</small></span>
+              </a>
+              <a class="contact-link-card" href="https://leetcode.com/u/Phanee17/" target="_blank" rel="noreferrer">
+                <span class="contact-link-icon brand-leetcode">LC</span>
+                <span><strong>LeetCode</strong><small>Phanee17</small></span>
+              </a>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <h3>Send a Message</h3>
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea name="message" placeholder="Message" rows="4" required></textarea>
+            <button class="primary-action" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Designed and Developed by <span>Phaneendra Peravarapu</span></p>
+    </footer>
+
+    <div class="modal-shell" id="caseModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-backdrop" data-close-modal></div>
+      <article class="modal-card">
+        <button class="icon-button close-button" type="button" data-close-modal aria-label="Close case study">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 6l12 12M18 6 6 18" />
+          </svg>
+        </button>
+        <p class="eyebrow" id="modalType">Case study</p>
+        <h2 id="modalTitle"></h2>
+        <p id="modalSummary"></p>
+        <div class="modal-detail-grid" id="modalDetails"></div>
+        <div class="modal-stats" id="modalStats"></div>
+        <div class="modal-links" id="modalLinks"></div>
+      </article>
+    </div>
+
+    <div class="command-palette" id="commandPalette" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Command palette">
+      <div class="modal-backdrop" data-close-palette></div>
+      <div class="palette-card">
+        <label>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" />
+            <path d="m20 20-3.8-3.8" />
+          </svg>
+          <input id="paletteSearch" type="search" placeholder="Jump to section" autocomplete="off" />
+        </label>
+        <div class="palette-list" id="paletteList"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

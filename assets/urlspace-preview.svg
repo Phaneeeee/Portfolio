@@ -1,0 +1,29 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#F4F4F1"/>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <ellipse cx="575" cy="379" rx="360" ry="20" fill="url(#shadow)" opacity=".55"/>
+  <rect x="158" y="183" width="884" height="122" rx="24" fill="#F9F9F6" stroke="#111411" stroke-width="9"/>
+  <circle cx="224" cy="244" r="31" stroke="#111411" stroke-width="8"/>
+  <path d="M193 244h62M224 213v62M200 224c13 9 35 9 48 0M200 264c13-9 35-9 48 0" stroke="#111411" stroke-width="7" stroke-linecap="round"/>
+  <text x="268" y="264" fill="#111411" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800">http://www.</text>
+  <path d="M953 244h65M990 216l34 28-34 28" stroke="#111411" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M604 89c46 43 50 116 56 181 5 60 16 112 32 159l-42 12c-22-58-35-121-45-185-9-59-27-129-1-167Z" fill="#111411"/>
+  <path d="M548 154c29 36 67 63 98 99l-32 23c-30-42-58-82-66-122Z" fill="#111411"/>
+  <path d="M679 392c66 26 104 88 121 154" stroke="#111411" stroke-width="19" stroke-linecap="round"/>
+  <circle cx="780" cy="514" r="49" stroke="#111411" stroke-width="18"/>
+  <path d="M646 407c-30 57-22 111 15 172" stroke="#111411" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="624" cy="573" r="47" stroke="#111411" stroke-width="18"/>
+  <circle cx="644" cy="372" r="15" fill="#F9F9F6"/>
+  <path d="M973 285l22 100 24-31 39 70 27-15-39-70 39-5-112-49Z" fill="#111411" stroke="#F9F9F6" stroke-width="8" stroke-linejoin="round"/>
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 337) rotate(90) scale(430 760)">
+      <stop offset=".15" stop-color="#FFFFFF"/>
+      <stop offset=".72" stop-color="#E8E8E4"/>
+      <stop offset="1" stop-color="#BFC2BC"/>
+    </radialGradient>
+    <radialGradient id="shadow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(575 379) scale(360 20)">
+      <stop stop-color="#9EA39D"/>
+      <stop offset="1" stop-color="#DADCD7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
