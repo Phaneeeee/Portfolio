@@ -1,5 +1,7 @@
 # Phaneendra Peravarapu Portfolio
 
+**Live Link : https://phanee.site/**
+
 A modern, responsive personal portfolio website built to showcase my profile, projects, work experience, internships, skills, resume, and contact links.
 
 ## Features
