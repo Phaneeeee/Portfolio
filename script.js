@@ -339,14 +339,6 @@ const sectionObserver = new IntersectionObserver(
 
 document.querySelectorAll("main > section").forEach((section) => sectionObserver.observe(section));
 
-document.querySelector("#contactForm").addEventListener("submit", (event) => {
-  event.preventDefault();
-  const form = new FormData(event.currentTarget);
-  const subject = encodeURIComponent(`Portfolio inquiry from ${form.get("name")}`);
-  const bodyText = encodeURIComponent(`${form.get("message")}\n\nReply to: ${form.get("email")}`);
-  window.location.href = `mailto:phaneewhat@gmail.com?subject=${subject}&body=${bodyText}`;
-});
-
 const canvas = document.querySelector("#signalCanvas");
 const context = canvas.getContext("2d");
 let points = [];
